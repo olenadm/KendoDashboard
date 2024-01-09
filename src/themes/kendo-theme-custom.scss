@@ -1,0 +1,80 @@
+$primary: rgb(237, 231, 246);
+$secondary: #b39ddb;
+$error: #b90139;
+$purple: rgb(103, 58, 183);
+$border-radius: 8px;
+$green: rgb(0, 200, 83);
+$light-green: rgb(185, 246, 202) ;
+$blue: rgb(30, 136, 229);
+
+@import
+  "~@progress/kendo-theme-default/dist/all.scss";
+.k-drawer-container {
+  background: rgb(238, 242, 246) !important;
+  box-shadow: none;
+}
+
+.k-avatar-solid-primary {
+  border-color: $purple;
+}
+
+.k-drawer-container .k-drawer {
+  box-shadow: none !important;
+}
+
+.k-drawer-push.k-drawer-expanded .k-drawer-items
+{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.k-drawer-item {
+  border-radius: $border-radius;
+  margin-bottom: 5px;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.k-drawer-item.k-selected {
+  background: $primary;
+  color: $purple;
+}
+.k-button-solid-base.k-selected {
+  border-color: $purple;
+  color: white;
+  background-color: $purple;
+}
+
+.k-drawer-item.k-selected:hover,
+.k-drawer-item.k-selected.k-hover {
+  color: white;
+  background-color: $secondary;
+}
+
+.k-button-solid-primary {
+  background: $green;
+  border-color: $green;
+}
+
+.k-button-solid-primary:hover,
+.k-button-solid-primary.k-hover {
+  background-color: $light-green;
+  border-color: $light-green;
+}
+
+.k-switch-on .k-switch-track {
+    border-color: $blue;
+    color: white;
+    background-color: $blue;
+}
+.k-radio:checked, .k-radio.k-checked{
+    border-color: $blue;    
+    background-color: $blue;
+}
+.k-radio:checked:focus, .k-radio.k-checked.k-focus {
+    box-shadow: 0 0 0 2px rgb(30, 136, 229, 0.3);
+}
+
+.k-switch-on:focus .k-switch-track, .k-switch-on.k-focus .k-switch-track{
+    outline:  2px rgb(30, 136, 229, 0.3);
+}
