@@ -10,8 +10,7 @@ import { ExcelExport } from "@progress/kendo-react-excel-export";
 import { Button } from "@progress/kendo-react-buttons";
 import {
   AdventureCell,
-  FlagCell,
-  OnlineCell,
+  FlagCell, 
   RatingCell,
   EngagementCell,
   CurrencyCell,

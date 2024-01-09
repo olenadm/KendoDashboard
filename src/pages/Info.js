@@ -1,10 +1,6 @@
 import * as React from "react";
-
-import { useLocalization } from "@progress/kendo-react-intl";
-
 import { AppContext } from "./../Components/AppContext";
 
-import * as ReactDOM from "react-dom";
 import {
   StackLayout,
   Avatar,
@@ -37,7 +33,6 @@ const Info = () => {
     setIsHorizontal(false);
   }, [setIsHorizontal]);
 
-  const localizationService = useLocalization();
   return (
     <main>
       <div className="dashboard-page main-content">

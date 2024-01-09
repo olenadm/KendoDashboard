@@ -10,7 +10,6 @@ import { locales } from './../resources/locales';
 
 import { AppContext } from './AppContext'
 
-import headerBg from '../assets/header-bg.png';
 import userAvatar from '../assets/user-avatar.jpg';
 
 export const Header = (props) => {
