@@ -441,7 +441,9 @@ a {
   }
 }
 
+
 @media (min-width: 768px) {
+    
   .profile-page {
     .k-form {
       margin: 0 auto;
@@ -475,13 +477,7 @@ a {
     max-width: 820px;
   }
 
-  .kendoka {
-    text-align: center;
-    img {
-      max-width: 280px;
-    }
-  }
-
+ 
   .section-1 {
     text-align: center;
     h1 {
@@ -506,16 +502,7 @@ a {
       }
     }
 
-    .github-link {
-      display: inline-flex;
-      flex-direction: row;
-      align-items: center;
-      align-content: center;
-
-      .github-text {
-        margin-left: 15px;
-      }
-    }
+   
   }
 
   .section-2 {
