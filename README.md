@@ -1,6 +1,5 @@
-# Dashboard built with some Kendo UI components
+# Dashboard built with some Kendo UI components 
 
 
-## Kendo UI for React
+## Grid, Custom Cells
 
-I
